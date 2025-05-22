@@ -20,7 +20,7 @@ contestants.forEach(item => {
     modalTitle.innerHTML = `Thank you, you voted <br />HASSAN SHEIKH MOHAMUD`;
 
     const modalImg = document.querySelector(".popup-image");
-    modalImg.src = "images/hassan.jpg"; // fixed image for Xasan Sheekh
+    modalImg.src = "images and voice/hassan.jpg"; // fixed image for Xasan Sheekh
     modalImg.alt = "President Hassan Sheikh Mohamud";
   });
 });
