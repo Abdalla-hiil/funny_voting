@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dooro musharax</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="container">
+    <h1>DOORASHADA 2026</h1>
+    <ul class="candidates" id="contestants">
+      <li>
+        <img src="images/sharif.jpg" alt="Sheikh Sharif" />
+        <span>SHEIKH SHARIF</span>
+      </li>
+      <li>
+        <img src="images/hassan.jpg" alt="Hassan Sheikh Mohamud" />
+        <span>HASSAN SHEIKH MOHAMUD</span>
+      </li>
+      <li>
+        <img src="images/farmajo.jpg" alt="Farmaajo" />
+        <span>MOHAMED ABDILAHI FARMAJO</span>
+      </li>
+      <li>
+        <img src="images/kheyre.jpg" alt="Hasan Ali Kheyre" />
+        <span>HASSAN ALI KHEYRE</span>
+      </li>
+      <li>
+        <img src="images/hiil.jpg" alt="Hiil" />
+        <span>ABDULLAHI ABDIRAHMAN YUSUF (HIIL)</span>
+      </li>
+      <li>
+        <img src="images/abdirahman.jpg" alt="Abdirahman Abdishakur" />
+        <span>ABDIRAHMAN ABDISHAKUR</span>
+      </li>
+      <li>
+        <img src="images/dani.jpg" alt="Said Abdillahi Dani" />
+        <span>SAID ABDILLAHI DANI</span>
+      </li>
+    </ul>
+  </main>
+
+  <!-- Audio for vote sound -->
+  <audio id="voteSound" src="images/voice.mp3" preload="auto"></audio>
+
+  <!-- Popup Modal -->
+  <div id="popupModal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="close-btn" id="closeModal" aria-label="Close modal">&times;</button>
+      <img src="images/hassan.jpg" alt="President Hassan Sheikh Mohamud" class="popup-image" />
+      <h2 id="modalTitle">
+        Thank you, you voted <br />
+        Hassan Sheikh Mohamud
+      </h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
